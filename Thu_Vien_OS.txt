@@ -1,0 +1,26 @@
+Thu vien lam viec voi tap tin va thu muc: OS <import os>
+Các hàm co ban:
+# Module os:
+os.rename(old, new): doi ten file
+os.remove(file): xóa file khoi he thong
+os.mkdir(dir): tao thu muc
+os.rmdir(dir): xóa thu muc
+os.listdir(dir):lay danh sách tap tin, thu muc
+os.chdir(path): doi thu muc hien hành
+os.getcwd() tra ve thu muc hien hành
+os.chmod(path, mode): CHMOD mot duong dan
+os.chown(path, uid, gid): CHOWN mot duong dan
+os.makedirs(path[path[, mode]): tao duong dan (có recursive)
+os.removedirs(path): xoá mot duong dan (có recursive)
+# Module os.path:
+os.path.exists(path): kiem tra mot duong dan có ton tai hay không
+os.path.getfile(path): lay file size (byte)
+os.path.isfile(path): kiem tra xem có phai là file thông thuong không
+os.path.isdir(path): kiem tra xem có phai là mot thu muc
+os.path.dirname(path): tra ve tên thu muc cua path
+os.path.getatime(path): tra ve thoi gian truy cap moi nhat
+os.path.getmtime(path): tra ve thoi gian chinh sua cuoi cùng
+os.path.getctime(path): tra ve thoi gian chinh sua cuoi cua metadata trên he thong. Hoac tra ve thoi gian tao trên Windows
+
+
+
